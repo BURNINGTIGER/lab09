@@ -1,0 +1,10 @@
+language: cpp
+В списке нет элементов.
+
+addons:
+  apt:
+    sources:
+      - george-edison55-precise-backports
+    packages:
+      - cmake
+      - cmake-data
